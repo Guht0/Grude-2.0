@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.titulo {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+.icons:hover {
+    width:215px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.icons-midia:hover {
+    width: 215px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.hover:hover {
+    width: 115px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+/***********parte superior do site****************/
+
+.home-div {
+    background-color: #20bfd6;
+    position: relative;
+    padding-top: 1000px;
+    
+}
+.h-top {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    font-size: 8rem;
+}
+
+.ptop {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 7;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.meltop {
+    width: 400px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fx-amarela {
+    width: 850px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.menu {
+    width: 70px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+/********************************midia*********************************/
+.midia {
+    background-color: #E7D82F;
+    position: relative;
+    padding-top: 1000px;
+    
+}
+
+.h-midia {
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+.fx-azul {
+    width: 850px;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-pl {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 53%;
+    left: 20%;
+    transform: translate(-50%, -50%);    
+}
+
+.nota {
+    position: absolute;
+    width: 200px;
+    top: 53%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.txt-play {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #20bfd6;
+}
+
+.desc-play {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.tacas {
+    position: absolute;
+    width: 200px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.txt-comes {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #20bfd6;
+}
+
+.desc-comes {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.trofel {
+    position: absolute;
+    width: 100px;
+    top: 53%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.txt-rambora {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: #20bfd6;
+}
+
+.desc-rambora {
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+/****************************************************************/
+.integ {
+    background-color: #20bfd6;
+    position: relative;
+    padding-top: 1000px;
+    height: 1000px;
+}
+
+.img-perfil {
+    width: 200px;
+}
+
+.nick-color {
+    color: #E7D82F;
+}
+
+.desc-color {
+    color: white;
+}
+
+.h-integ {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    z-index: 1;
+    font-size: 4rem;
+}
+
+.fx-amarela-integ {
+    width: 850px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cla-ft {
+    position:absolute;
+    top: 23%;
+    left: 20%;
+    transform:translate(-50%, -50%)
+}
+
+.nick-cla {
+    position:absolute;
+    top: 32%;
+    left: 20%;
+    transform:translate(-50%, -50%)
+}
+
+.desc-cla {
+    position:absolute;
+    top: 35%;
+    left: 20%;
+    transform:translate(-50%, -50%)
+}
+
+.fla-ft {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nick-fla {
+    position:absolute;
+    top: 32%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.desc-fla {
+    position:absolute;
+    top: 35%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.gui-ft {
+    position: absolute;
+    top: 23%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.nick-gui {
+    position:absolute;
+    top: 32%;
+    left: 80%;
+    transform:translate(-50%, -50%)
+}
+
+.desc-gui {
+    position:absolute;
+    top: 35%;
+    left: 80%;
+    transform:translate(-50%, -50%)
+}
+
+.gu-ft {
+    position:absolute;
+    top: 48%;
+    left: 20%;
+    transform:translate(-50%, -50%)
+}
+
+.nick-gu {
+    position:absolute;
+    top: 57%;
+    left: 20%;
+    transform:translate(-50%, -50%)
+}
+
+.desc-gu {
+    position:absolute;
+    top: 60%;
+    left: 20%;
+    transform:translate(-50%, -50%)
+}
+
+.joao-ft {
+    position:absolute;
+    top: 48%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.nick-joao {
+    position:absolute;
+    top: 57%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.desc-joao {
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.ju-ft {
+    position:absolute;
+    top: 48%;
+    left: 80%;
+    transform:translate(-50%, -50%)
+}
+
+.nick-ju {
+    position:absolute;
+    top: 57%;
+    left: 80%;
+    transform:translate(-50%, -50%)
+}
+
+.desc-ju {
+    position:absolute;
+    top: 60%;
+    left: 80%;
+    transform:translate(-50%, -50%)
+}
+
+.lo-ft {
+    position:absolute;
+    top: 73%;
+    left: 35%;
+    transform:translate(-50%, -50%)
+}
+
+.nick-lo {
+    position:absolute;
+    top: 82%;
+    left: 35%;
+    transform:translate(-50%, -50%)
+}
+
+.desc-lo {
+    position:absolute;
+    top: 85%;
+    left: 35%;
+    transform:translate(-50%, -50%)
+}
+
+.re-ft {
+    position:absolute;
+    top: 73%;
+    left: 65%;
+    transform:translate(-50%, -50%)
+}
+
+.nick-re {
+    position:absolute;
+    top: 82%;
+    left: 65%;
+    transform:translate(-50%, -50%)
+}
+
+.desc-re {
+    position:absolute;
+    top: 85%;
+    left: 65%;
+    transform:translate(-50%, -50%)
+}
